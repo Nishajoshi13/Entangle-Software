@@ -1,0 +1,45 @@
+
+.logo{
+    width:15%;
+   height:60%;
+}
+.mat-toolbar {
+  background-image:url("/assets/image/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size:cover;
+  height:670px;
+ }
+ 
+ .example-spacer {
+   flex: 1 1 auto;
+ }
+ .list{
+  display:flex;
+  align-items: center;
+  gap:36px;
+  row-gap:36px;
+  column-gap:36px;
+ 
+ }
+ .list a{
+  color:#fff
+ }
+ .mat-list-item {
+  
+   display: flex;
+   justify-content:center;
+   text-align: center;
+   color: white;
+   
+ }
+ .content{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: right;
+  color:black;
+  padding-bottom:15%;
+  
+ }

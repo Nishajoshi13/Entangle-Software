@@ -1,0 +1,24 @@
+<mat-toolbar color="primary">Registration Form</mat-toolbar>
+
+<form class="form-container">
+  <mat-form-field>
+    <input matInput placeholder=" firstName" [(ngModel)]="formData.firstName" name="FirstName" required>
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="LastName" [(ngModel)]="formData.LastName" name="LastName" required email>
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="Email" [(ngModel)]="formData.email" name="email" required email>
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="Contact no" [(ngModel)]="formData.Contactno" name="Contact no" required email>
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="message" [(ngModel)]="formData.message" name="message" required email>
+  </mat-form-field>
+  <button mat-raised-button color="primary" type="submit">Register</button>
+</form>
