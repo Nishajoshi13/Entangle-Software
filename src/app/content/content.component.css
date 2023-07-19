@@ -1,0 +1,291 @@
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: right;
+    color:black;
+    padding-bottom:15%;
+    
+  }
+  .intro{
+  top: 32%;
+  position: relative;
+  width: 40%;
+  float: right;
+  }
+  .content h1{
+    text-align: right;
+    color:white;
+    font-size: 450%;
+    padding-top: 10%;
+  }
+  
+  .content h3{
+    text-align: right;
+    color:white;
+    font-size: 150%;
+    padding-top: 5%;
+    
+  }
+  .mat-flat-button{
+    
+        display: inline-block;
+        padding: 0.5em 1em;
+        border: 2px solid white;
+        background-color: transparent;
+        color: white;
+        font-size: 14px;
+        cursor: pointer;
+      
+  }
+.who-we-are-maincontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    margin-top:40px;
+    margin-left:90px;
+    margin-right:90px;
+}
+    
+
+.who-we-are{
+    padding-bottom: 20%;
+    max-width:1200px;
+}
+.who-we-are h1{
+    font-size: 300%;
+    font-family: 'Bacasime Antique', serif;
+}
+.who-we-are p{
+    font-size: 20px;
+    font-family: 'Bacasime Antique', serif;
+   
+    padding: 0 26px;
+    padding-top: 0px;
+    padding-right: 26px;
+    padding-bottom: 0px;
+    padding-left: 26px;
+   
+}
+.p{
+    margin-left: 20px;
+    width:100%;
+
+}
+.background{
+    height:5%;
+    width:100%;  
+   
+}
+.main-container{
+    margin-top:40px;
+    margin-left:90px;
+    margin-right:90px;
+} 
+
+  .container h1{
+    font-size: 300%;
+    font-family: 'Bacasime Antique', serif;
+}
+  
+  .container p{
+    font-family: 'Bacasime Antique', serif;
+    font-size:160%;
+    padding-left:5%;
+    margin-top:10px;
+  }
+ .services{
+    display:grid;
+    grid-template-columns: 250px 250px ;
+    column-gap: 500px; 
+   margin-top:70px;
+   margin-left:150px;
+      
+    
+ }
+ .item p{
+    font-size: 150%;
+    font-family: 'Bacasime Antique', serif;
+ }
+ .item h4{
+    font-size: 200%;
+ }
+ .I{
+    height:15%;
+    width:15%;
+}
+
+.icons h1{
+    font-size: 45px;
+    font-family: 'Bacasime Antique', serif;
+    margin-top:20px;
+    
+    
+}
+.img{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    margin-top:80px;
+    margin-left:90px;
+    margin-right:90px;
+    grid-row-gap:60px;
+    grid-column-gap:100px;
+    
+   
+}
+.grid{
+    width: 80px;
+    height:80px;
+}
+.grid p{
+    font-size: 10px;
+    text-align: center;
+}
+.contact{
+    min-height: 40px;
+ }
+.B{
+    display:flex;
+    margin-top:60px;
+    margin-left:400px;
+    margin-right:400px;
+    margin-bottom:50px;
+  
+   
+}
+.contactimg{
+    background-image: url("/assets/image/contact-us (1) (1).jpg");
+    background-repeat: no-repeat;
+   width: 100%;
+    height: 60%;
+    position: absolute;
+    opacity: .5;
+    margin-top:50px;
+}
+mat-form-field{
+    width:350px;
+}
+ .f-card{
+   
+    width:500px;
+    padding: 30px 15px;
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+ }
+ .f-card h3{
+    font-size: 150%;
+    padding-left:40px;
+ }
+ 
+ .card{
+     color:white;
+     background:#010b47;
+     padding:80px 40px;
+     height:450px; 
+     padding-top:20px;
+     margin-top:40px;
+ }
+ .contact-info{
+    
+    width:270px;
+    height:90px;
+     margin:10px;
+     color:white;
+ }
+ .h4{
+     font-size: 50%;
+ }
+     
+ 
+ .contact-info h4{
+     font-size:25px;
+ }
+ .text{
+     font-size:17px;
+     line-height:25px;
+     margin-bottom:28px;
+   margin-top:10px;
+    
+ }
+ .contact-form h1{
+     font-size: 30px;
+     text-align: center;
+     
+     margin: 40px 0;
+ }
+ .contact-form p{
+     font-size: 20px;
+     margin: 15px 0;
+ }
+ .footer{
+    
+     background-color:#0a1928;
+     align-items: center;
+ }
+ .row{
+     display: flex;
+     
+ }
+ .footer{
+     padding: 50px 0;
+ }
+ .footer-col{
+     width: 25%;
+     padding: 0 15px;
+     
+ }
+
+ .footer-col h4{
+     font-size: 18px;
+     color:#ffffff ; 
+     text-transform: capitalize;
+     margin-bottom: 35px;
+     font-weight: 500;
+     padding-left:40px;
+ }
+ .footer-col ul li:not(:last-child){
+     margin-bottom:10px;
+ }
+ .footer-col ul li a{
+     font-size: 16px;
+     text-decoration:none;
+     font-weight:300;
+     color:#bbbbbb;
+     display: block;
+    
+ }
+
+ .r{
+     color:#ffffff;
+     width: 40%;
+     padding-left:70px;
+    
+ }
+ .social-links{
+     display:flex;
+     padding:2px;
+     margin: 2px;
+ }
+ .icon{
+    width:70%;
+    height:50%;
+ }
+ .links{
+     width: 30px;
+     height:30px;
+  
+ }
+ .location{
+     margin-top: 20px;
+   
+ }
+ .heading{
+     font: size 20%;
+ }
+ 
+
+
+
