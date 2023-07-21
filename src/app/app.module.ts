@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {APP_BASE_HREF} from '@angular/common';
 
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatCardModule} from '@angular/material/card';
@@ -34,7 +35,7 @@ import { ContentComponent } from './content/content.component';
     ReactiveFormsModule,
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [{provide:APP_BASE_HREF, useValue: '/project1/'}],
   bootstrap: [AppComponent]
 })
 export class AppModule { 
