@@ -3,8 +3,8 @@
     width:15%;
    height:60%;
 }
-.mat-toolbar {
-  background-image:url("assets/image/bg.jpg");
+.mat-toolbar .header-background{
+
   background-repeat: no-repeat;
   background-position: 0 100%;
   background-size:cover;
