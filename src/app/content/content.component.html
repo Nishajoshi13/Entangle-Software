@@ -97,26 +97,27 @@
     <div class="B">
     <mat-card class="f-card">
         <h3>We want to Hear from You</h3>
-        <form class="form-container">
+        <form class="form-container" [formGroup]="MyForm" (ngSubmit)="onSubmit()">
             
             <mat-form-field>
-              <input matInput placeholder=" FirstName" [(ngModel)]="formData.firstName" name="FirstName" required firstName>
+              <input matInput placeholder=" FirstName" formControlName="FirstName" required firstName>
+              
             </mat-form-field>
             <br>
             <mat-form-field>
-              <input matInput placeholder="LastName" [(ngModel)]="formData.LastName" name="LastName" required LastNam>
+              <input matInput placeholder="LastName"  formControlName="LastName" required LastName>
             </mat-form-field>
             <br>
             <mat-form-field>
-              <input matInput placeholder="Email" [(ngModel)]="formData.email" name="email" required email>
+              <input matInput placeholder="Email"  formControlName="email" required email>
             </mat-form-field>
             <br>
             <mat-form-field>
-              <input matInput placeholder="Contact No" [(ngModel)]="formData.Contactno" name="Contact No" required Contactno>
+              <input matInput placeholder="Contact No"  formControlName="Contact No" required Contactno>
             </mat-form-field>
             <br>
             <mat-form-field>
-              <textarea matInput placeholder="Message" [(ngModel)]="formData.message" name="Message" required></textarea> 
+              <textarea matInput placeholder="Message" formControlName="Message" required></textarea> 
             </mat-form-field>
             <br>
             <button mat-raised-button color="gray" type="submit">Send</button>
